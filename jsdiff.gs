@@ -8,6 +8,10 @@ class JSDiff {
   *
   * More Info:
   *  http://ejohn.org/projects/javascript-diff-algorithm/
+  *
+  * Usage:
+  * let textDiff = JSDiff.diff(originalText, newText);
+  *
   */
 
   static _escape(s) {
